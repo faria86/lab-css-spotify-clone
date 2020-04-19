@@ -1,8 +1,167 @@
-/*
-Colors:
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
-*/
+#logo {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0 25px;
+}
+
+.music-for-everyone {
+  background: url("/lab-css-spotify-clone/images/landing.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-for-everyone > p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.music-for-everyone > h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  color: white;
+  font-weight: 700;
+}
+
+.whatson-title {
+  text-align: center;
+  padding-top: 30px;
+  border-bottom: 2px solid green;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.whats-on-spotify {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.whats-on-spotify article img {
+  width: 90px;
+}
+
+.whats-on-spotify h3 {
+  color: green;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.whats-on-spotify p {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 0em;
+}
+
+.green-background {
+  background-color: green;
+  background-size: 150px;
+  width: 95%;
+  margin: 70px auto 20px auto;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  padding: 50px 0;
+  }
+
+.flex-item2:nth-child(1) {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  width: 40%;
+  }
+
+.flex-item2:nth-child(2) {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  width: 30%;
+  }
+
+.flex-item2 h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 2em;
+  margin-bottom: 80px; 
+}
+
+#underline {
+  padding: 10px 0;
+  border-bottom: 2px solid white;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.8em;
+  color: white;
+  font-weight: 600;
+}
+
+.space {
+  margin: 50px 0;
+}
+
+.container2 {
+  width: 80%;
+}
+
+.flex-item2 p {
+  font-size: 20px;
+  color: white;
+}
+
+#app {
+  width: 300px;
+}
